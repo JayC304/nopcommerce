@@ -14,9 +14,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import commons.BasePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class User_01_Register {
+public class User_01_Register extends BasePage {
 	WebDriver driver;
 	String emailAddress;
 	String projectPath = System.getProperty("user.dir");
